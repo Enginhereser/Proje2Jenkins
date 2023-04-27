@@ -9,7 +9,7 @@ import io.cucumber.testng.CucumberOptions;
         glue = {"stepdefs"},
         plugin = { "pretty",
                 "json:test-output/cucumber-reports/cucumber.json",
-                "html:test-output/cucumber-reports/cucumberreport.html",
+                "html:test-output/cucumber-reports/cucumber.html",
                 }
 
 )
